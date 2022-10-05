@@ -1,0 +1,42 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-left: 64px;
+}
+
+.form__fullName {
+  display: flex;
+  gap: 19px;
+  justify-content: space-between;
+}
+
+.contact__form input[type="text"] {
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px 22px;
+  background: var(--color-bg);
+  color: var(--color-white);
+  font-family: "IranSansRegular";
+}
+
+.contact__form .btn {
+  width: max-content;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.succesMsg {
+  width: 470px;
+  text-align: center;
+}
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .succesMsg {
+    display: block;
+    width: 100%;
+  }
+}
